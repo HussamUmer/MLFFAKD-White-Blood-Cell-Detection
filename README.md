@@ -1,83 +1,83 @@
-# Optimizing White Blast Cell Detection with Multi-Layer Feature Fusion & Attention-Based Knowledge Distillation (MLFFAKD)
+# 🩸 MLFFAKD – Optimizing White Blast Cell Detection
 
-This repository contains the implementation of our research paper:
+[![Paper](https://img.shields.io/badge/📄%20Research%20Paper-PDF-blue)](paper.pdf)
+[![Dataset](https://img.shields.io/badge/Dataset-Figshare-orange)](https://doi.org/10.6084/m9.figshare.23532799)
+[![Accuracy](https://img.shields.io/badge/Accuracy-98.33%25-brightgreen)](#-results-vs-state-of-the-art)
+[![License](https://img.shields.io/badge/License-MIT-purple)](LICENSE)
 
-> **"Optimizing White Blast Cell Detection in Blood Smear Images Using Multi-Layer Feature Fusion and Attention-Based Knowledge Distillation"**  
-> Sana Ullah Khan, Bakht Azam, Hussam Umer, Hidayat Ullah Khan (2025)
-
-## 📌 Overview
-Accurate detection of white blood cells (WBCs) — especially immature blast cells — is crucial for diagnosing hematological diseases such as leukemia, anemia, lymphoma, and thalassemia. Manual microscopic analysis is time-consuming, labor-intensive, and prone to human error.  
-
-Our work introduces **MLFFAKD**, a **lightweight yet high-performing deep learning framework** that combines:
-- **Multi-Layer Feature Fusion**  
-- **Attention Mechanisms**  
-- **Knowledge Distillation (KD)**  
-
-We transfer knowledge from a powerful **EfficientNet (teacher model)** to a compact **TinyResNet (student model)**, significantly **reducing computational cost** while maintaining **state-of-the-art accuracy**.
+> **Multi-Layer Feature Fusion & Attention-Based Knowledge Distillation (MLFFAKD)**  
+> Lightweight yet high-accuracy deep learning for **White Blood Cell (WBC) classification** from blood smear images.
 
 ---
 
-## 🚀 Key Contributions
-- **Novel Knowledge Distillation Approach** — Efficiently transfers rich feature representations from teacher to student model.
-- **Multi-Layer Feature Fusion** — Leverages information from multiple network layers for improved learning.
-- **Attention Mechanisms** — Enhances relevant feature selection, reducing false positives.
-- **Computational Efficiency** — ~60% faster inference time with minimal performance drop compared to the teacher.
-- **Clinical Applicability** — Optimized for real-time detection, especially in resource-constrained environments.
+## 📌 Overview
+
+Detecting immature blast cells in blood smear images is critical for diagnosing hematological diseases like leukemia.  
+Manual inspection is **slow, labor-intensive, and prone to human error**.  
+
+Our **MLFFAKD framework**:
+- Transfers rich knowledge from **EfficientNet (teacher)** → **TinyResNet (student)**
+- Uses **Multi-Layer Feature Fusion** + **Attention Mechanisms**
+- Achieves **98.33% accuracy** with **60% faster inference**
+- Ideal for **real-time clinical & portable AI devices**
+
+---
+
+## ✨ Key Features
+
+✅ **High Accuracy** – Matches teacher model performance  
+✅ **Lightweight** – Faster inference for real-time use  
+✅ **Attention-Enhanced** – Focuses on important image regions  
+✅ **Multi-Layer Fusion** – Captures both low & high-level features  
+✅ **Clinically Applicable** – Suitable for low-resource hospitals  
 
 ---
 
 ## 📊 Performance Summary
 
-| Model             | Accuracy | Precision | Recall  | F1-Score |
-|-------------------|----------|-----------|---------|----------|
+| Model               | Accuracy | Precision | Recall  | F1-Score |
+|---------------------|----------|-----------|---------|----------|
 | Teacher (EfficientNet) | 98.61%  | 98.39%    | 98.33% | 98.44%   |
 | Student (TinyResNet)   | 98.33%  | 98.39%    | 98.33% | 98.44%   |
 
-Our **MLFFAKD** student model matches the teacher model's accuracy while being much faster and lighter — ideal for portable and edge AI diagnostic devices.
+---
+
+## 🖼 Visual Results
+
+| Teacher Model CM | Student Model CM |
+|------------------|------------------|
+| ![Teacher Confusion Matrix](sample_results/teacher_cm.png) | ![Student Confusion Matrix](sample_results/student_cm.png) |
 
 ---
 
 ## 🧠 Methodology
 
-### 1️⃣ Data Preparation & Augmentation
-- Dataset: **16,027 high-resolution WBC images** (9 classes) from the [Figshare repository](https://doi.org/10.6084/m9.figshare.23532799).
-- Augmentations: Rotation, brightness adjustment, horizontal/vertical flips, and zoom.
-- Balanced dataset: 20,000 images per class after augmentation.
+### 1️⃣ Data
+- **Source**: [High-Resolution WBC Dataset – Figshare](https://doi.org/10.6084/m9.figshare.23532799)
+- **Classes**: 9 WBC types (neutrophils, lymphocytes, monocytes, eosinophils, etc.)
+- **Augmentation**: Rotation, brightness adjustment, flips, zoom → Balanced 20k images/class
 
-### 2️⃣ Teacher–Student Framework
-- **Teacher Model:** Pre-trained EfficientNet for deep feature extraction.
-- **Student Model:** Lightweight TinyResNet optimized for speed and efficiency.
-- **Knowledge Distillation:** Transfers both low-level and high-level features from teacher to student.
+### 2️⃣ Teacher–Student Training
+- **Teacher**: EfficientNet (pre-trained)
+- **Student**: TinyResNet (lightweight)
+- **Knowledge Distillation**: Soft targets + multi-layer feature alignment
 
-### 3️⃣ Multi-Layer Feature Fusion with Attention
-- Combines feature maps from different layers.
-- Applies attention mechanism for better feature selection.
-- Ensures dimensional compatibility between teacher and student features.
-
-### 4️⃣ Loss Function
-Total loss = Knowledge Distillation Loss + Feature Distillation Loss + Fusion Loss + Cross-Entropy Classification Loss.
-
----
-
-
----
-
-## 🖼️ Sample Outputs
-- **Confusion Matrices** for both teacher and student models.
-- **Performance Comparisons** with DenseNet, YOLOv10, Vision Transformer, and DeepLeuk CNN.
-
----
-
-## 📥 Dataset
-The dataset is available on Figshare:  
-[🔗 High-Resolution Pathological and Normal WBC Dataset](https://doi.org/10.6084/m9.figshare.23532799)
+### 3️⃣ Multi-Layer Feature Fusion + Attention
+- Extract features from multiple teacher layers  
+- Fuse + align with student features  
+- Apply attention for relevant region emphasis
 
 ---
 
 ## ⚙️ Installation & Usage
 
-### Clone the repository
 ```bash
+# Clone repo
 git clone https://github.com/your-username/MLFFAKD-White-Blood-Cell-Detection.git
 cd MLFFAKD-White-Blood-Cell-Detection
 
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Jupyter Notebook
+jupyter notebook MFFAKD_final_notebook.ipynb

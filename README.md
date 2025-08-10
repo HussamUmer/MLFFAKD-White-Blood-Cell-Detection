@@ -59,4 +59,25 @@ Total loss = Knowledge Distillation Loss + Feature Distillation Loss + Fusion Lo
 
 ---
 
-## 📂 Repository Structure
+
+---
+
+## 🖼️ Sample Outputs
+- **Confusion Matrices** for both teacher and student models.
+- **Performance Comparisons** with DenseNet, YOLOv10, Vision Transformer, and DeepLeuk CNN.
+
+---
+
+## 📥 Dataset
+The dataset is available on Figshare:  
+[🔗 High-Resolution Pathological and Normal WBC Dataset](https://doi.org/10.6084/m9.figshare.23532799)
+
+---
+
+## ⚙️ Installation & Usage
+
+### Clone the repository
+```bash
+git clone https://github.com/your-username/MLFFAKD-White-Blood-Cell-Detection.git
+cd MLFFAKD-White-Blood-Cell-Detection
+

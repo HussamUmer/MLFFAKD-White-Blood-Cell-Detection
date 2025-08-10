@@ -53,16 +53,25 @@ Our **MLFFAKD framework**:
 ## 🧠 Methodology
 
 ### 1️⃣ Data
-We used the **High-Resolution White Blood Cell (WBC) Dataset** from the [Figshare repository](https://doi.org/10.6084/m9.figshare.23532799), which contains 9 classes of WBCs, including both normal and pathological types.
+##  Dataset
 
-For our experiments, we performed **custom formatting and splitting** as follows:
+We used the **High-Resolution, Large-Scale White Blood Cell (WBC) Image Dataset**, published on Figshare.  
+This comprehensive dataset includes:
 
-- **Training Samples**: 2,880 images  
-- **Validation Samples**: 360 images  
-- **Testing Samples**: 360 images  
+- **16,027** single-cell WBC images, both normal and pathological  
+- Covers **nine classes**: neutrophil segments, neutrophil bands, eosinophils, basophils, lymphocytes, monocytes, normoblasts (nucleated red blood cells), myeloblasts (referred to as “myeloid” on the webpage), and lymphoblasts  
+- **Dataset Link**: [🔗 Figshare – High-Resolution WBC Dataset](https://springernature.figshare.com/articles/dataset/A_large-scale_high-resolution_WBC_image_dataset/22680517)
 
-This split ensures a balanced distribution across all 9 classes for consistent training, evaluation, and testing.
-Data augmentation techniques such as rotation, brightness adjustment, horizontal/vertical flips, and zoom were applied to enhance diversity and reduce overfitting.
+
+For training and evaluation, we structured the dataset as follows:
+
+| Dataset Split       | Number of Samples |
+|---------------------|-------------------|
+| **Training**        | 2,880             |
+| **Validation**      | 360               |
+| **Testing**         | 360               |
+
+Data augmentation techniques such as rotation, brightness adjustment, horizontal/vertical flips, and zoom were applied to enrich the training set and improve model generalization.
 
 ### 2️⃣ Teacher–Student Training
 - **Teacher**: EfficientNet (pre-trained)

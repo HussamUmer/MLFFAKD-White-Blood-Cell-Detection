@@ -53,7 +53,6 @@ Our **MLFFAKD framework**:
 ## 🧠 Methodology
 
 ### 1️⃣ Data
-##  Dataset
 
 We used the **High-Resolution, Large-Scale White Blood Cell (WBC) Image Dataset**, published on Figshare.  
 This comprehensive dataset includes:

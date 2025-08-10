@@ -53,9 +53,16 @@ Our **MLFFAKD framework**:
 ## 🧠 Methodology
 
 ### 1️⃣ Data
-- **Source**: [High-Resolution WBC Dataset – Figshare](https://doi.org/10.6084/m9.figshare.23532799)
-- **Classes**: 9 WBC types (neutrophils, lymphocytes, monocytes, eosinophils, etc.)
-- **Augmentation**: Rotation, brightness adjustment, flips, zoom → Balanced 20k images/class
+We used the **High-Resolution White Blood Cell (WBC) Dataset** from the [Figshare repository](https://doi.org/10.6084/m9.figshare.23532799), which contains 9 classes of WBCs, including both normal and pathological types.
+
+For our experiments, we performed **custom formatting and splitting** as follows:
+
+- **Training Samples**: 2,880 images  
+- **Validation Samples**: 360 images  
+- **Testing Samples**: 360 images  
+
+This split ensures a balanced distribution across all 9 classes for consistent training, evaluation, and testing.
+Data augmentation techniques such as rotation, brightness adjustment, horizontal/vertical flips, and zoom were applied to enhance diversity and reduce overfitting.
 
 ### 2️⃣ Teacher–Student Training
 - **Teacher**: EfficientNet (pre-trained)

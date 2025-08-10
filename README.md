@@ -107,4 +107,8 @@ jupyter notebook MFFAKD_final_notebook.ipynb
 | DeepLeuk CNN             | 97.1%      | 96.3%      | 96.6%      | 96.4%      |
 | **Proposed MLFFAKD**     | **98.33%** | **98.37%** | **98.36%** | **98.34%** |
 
+## 📧 Contact
+
+- **Sana Ullah Khan** – [sana.ullah@kust.edu.pk](mailto:sana.ullah@kust.edu.pk)  
+- **Hussam Umer** – [hussamumer28092000@gmail.com](mailto:hussamumer28092000@gmail.com)
 

@@ -81,3 +81,15 @@ pip install -r requirements.txt
 
 # Run Jupyter Notebook
 jupyter notebook MFFAKD_final_notebook.ipynb
+```
+## 📈 Results vs State-of-the-Art
+```bash
+| Model                    | Accuracy   | Precision  | Recall     | F1-Score   |
+| ------------------------ | ---------- | ---------- | ---------- | ---------- |
+| DenseNet + Random Search | 97.3%      | 96.5%      | 96.8%      | 96.6%      |
+| Y-YOLO v10               | 96.8%      | 95.9%      | 96.2%      | 96.0%      |
+| Vision Transformer (ViT) | 96.5%      | 95.7%      | 96.0%      | 95.8%      |
+| DeepLeuk CNN             | 97.1%      | 96.3%      | 96.6%      | 96.4%      |
+| **Proposed MLFFAKD**     | **98.33%** | **98.37%** | **98.36%** | **98.34%** |
+
+

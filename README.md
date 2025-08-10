@@ -1,7 +1,7 @@
 # 🩸 MLFFAKD – Optimizing White Blast Cell Detection
 
 [![Paper](https://img.shields.io/badge/📄%20Research%20Paper-PDF-blue)](paper.pdf)
-[![Dataset](https://img.shields.io/badge/Dataset-Figshare-orange)](https://doi.org/10.6084/m9.figshare.23532799)
+[![Dataset](https://img.shields.io/badge/Dataset-Figshare-orange)](https://springernature.figshare.com/articles/dataset/A_large-scale_high-resolution_WBC_image_dataset/22680517)
 [![Accuracy](https://img.shields.io/badge/Accuracy-98.33%25-brightgreen)](#-results-vs-state-of-the-art)
 [![License](https://img.shields.io/badge/License-MIT-purple)](LICENSE)
 

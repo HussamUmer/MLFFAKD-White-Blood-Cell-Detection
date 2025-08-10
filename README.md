@@ -113,3 +113,10 @@ jupyter notebook "Jupyter Notebook/MFFAKD_final_notebook.ipynb"
 - **Dr. Sana Ullah Khan** – [sana.ullah@kust.edu.pk](mailto:sana.ullah@kust.edu.pk)  
 - **Hussam Umer** – [hussamumer28092000@gmail.com](mailto:hussamumer28092000@gmail.com)
 
+📄 **Note:**  
+The related research paper is currently **under review**.  
+
+📧 **For any questions regarding the review process or paper submission, please contact:**  
+Dr. Sana Ullah Khan – [sana.ullah@kust.edu.pk](mailto:sana.ullah@kust.edu.pk)  
+
+

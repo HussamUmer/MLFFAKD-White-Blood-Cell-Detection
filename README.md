@@ -87,15 +87,16 @@ Data augmentation techniques such as rotation, brightness adjustment, horizontal
 ## ⚙️ Installation & Usage
 
 ```bash
-# Clone repo
-git clone https://github.com/your-username/MLFFAKD-White-Blood-Cell-Detection.git
+# Clone repository
+git clone https://github.com/HussamUmer/MLFFAKD-White-Blood-Cell-Detection.git
 cd MLFFAKD-White-Blood-Cell-Detection
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run Jupyter Notebook
-jupyter notebook MFFAKD_final_notebook.ipynb
+# Open Jupyter Notebook
+jupyter notebook "Jupyter Notebook/MFFAKD_final_notebook.ipynb"
+
 ```
 ## 📈 Results vs State-of-the-Art
 

@@ -46,7 +46,7 @@ Our **MLFFAKD framework**:
 
 | Teacher Model CM | Student Model CM |
 |------------------|------------------|
-| ![Teacher Confusion Matrix](![Confusion Matrix](sample_outputs/download1.png)) | ![Student Confusion Matrix](sample_results/student_cm.png) |
+| (![Confusion Matrix](Sample_Outputs/download1.png)) | ![Student Confusion Matrix](sample_results/student_cm.png) |
 
 ---
 

@@ -83,7 +83,7 @@ pip install -r requirements.txt
 jupyter notebook MFFAKD_final_notebook.ipynb
 ```
 ## 📈 Results vs State-of-the-Art
-```bash
+
 | Model                    | Accuracy   | Precision  | Recall     | F1-Score   |
 | ------------------------ | ---------- | ---------- | ---------- | ---------- |
 | DenseNet + Random Search | 97.3%      | 96.5%      | 96.8%      | 96.6%      |

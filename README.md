@@ -126,7 +126,6 @@ The results highlight the effectiveness of **multi-level feature fusion** and **
 
 ## 📧 Contact
 
-- **Dr. Sana Ullah Khan** – [sana.ullah@kust.edu.pk](mailto:sana.ullah@kust.edu.pk)  
 - **Hussam Umer** – [hussamumer28092000@gmail.com](mailto:hussamumer28092000@gmail.com)
 
 📄 **Note:**  

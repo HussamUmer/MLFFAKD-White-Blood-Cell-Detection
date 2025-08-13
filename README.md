@@ -129,7 +129,6 @@ The results highlight the effectiveness of **multi-level feature fusion** and **
 📄 **Note:**  
 The related research paper is currently **under review**.  
 
-📧 **For any questions regarding the review process or paper submission, please contact:**  
-Dr. Sana Ullah Khan – [sana.ullah@kust.edu.pk](mailto:sana.ullah@kust.edu.pk)  
+
 
 

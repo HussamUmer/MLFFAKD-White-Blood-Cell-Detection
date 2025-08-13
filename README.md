@@ -40,6 +40,15 @@ Our **MLFFAKD framework**:
 | Teacher (EfficientNet) | 98.61%  | 98.39%    | 98.33% | 98.44%   |
 | Student (TinyResNet)   | 98.33%  | 98.39%    | 98.33% | 98.44%   |
 
+### Graph
+
+#### 🧠 Teacher Model
+![Teacher Model Performance](Sample%20Outputs/Metrics/download%20(3).png)
+
+#### 🎓 Student Model
+![Student Model Performance](Sample%20Outputs/Metrics/download%20(4).png)
+
+
 ---
 
 ## 🖼 Visual Results

@@ -6,7 +6,7 @@
 [![Dataset](https://img.shields.io/badge/Dataset-Figshare-orange)](https://springernature.figshare.com/articles/dataset/A_large-scale_high-resolution_WBC_image_dataset/22680517)
 [![Accuracy](https://img.shields.io/badge/Accuracy-98.33%25-brightgreen)](#-results-vs-state-of-the-art)
 [![License](https://img.shields.io/badge/License-MIT-purple)](LICENSE)
-![Status](https://img.shields.io/badge/Status-Research%20Project-purple)
+![Status](https://img.shields.io/badge/Status-Research%20Project-yellow)
 
 > **Multi-Layer Feature Fusion & Attention-Based Knowledge Distillation (MLFFAKD)**  
 > Lightweight yet high-accuracy deep learning for **White Blood Cell (WBC) classification** from blood smear images.

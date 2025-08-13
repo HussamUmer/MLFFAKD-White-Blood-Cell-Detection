@@ -114,6 +114,13 @@ jupyter notebook "Jupyter Notebook/MFFAKD_final_notebook.ipynb"
 | DeepLeuk CNN             | 97.1%      | 96.3%      | 96.6%      | 96.4%      |
 | **Proposed MLFFAKD**     | **98.33%** | **98.37%** | **98.36%** | **98.34%** |
 
+### 📈 Comparison with State-of-the-Art Models
+Our proposed **MLFFAKD** framework outperforms several state-of-the-art white blood cell classification models in terms of **accuracy, precision, recall, and F1-score**.  
+The results highlight the effectiveness of **multi-level feature fusion** and **attention-based knowledge distillation**, enabling superior performance while maintaining computational efficiency.
+
+![Model Comparison](Sample%20Outputs/Comparison%20Graph/download%20(2).png)
+
+
 ## 📧 Contact
 
 - **Dr. Sana Ullah Khan** – [sana.ullah@kust.edu.pk](mailto:sana.ullah@kust.edu.pk)  

@@ -42,12 +42,9 @@ Our **MLFFAKD framework**:
 
 ### Graph
 
-#### 🧠 Teacher Model
-![Teacher Model Performance](Sample%20Outputs/Metrics/download%20(3).png)
-
-#### 🎓 Student Model
-![Student Model Performance](Sample%20Outputs/Metrics/download%20(4).png)
-
+| #### 🧠 Teacher Model | #### 🎓 Student Model |
+|------------------|------------------|
+| ![Teacher Model Performance](Sample%20Outputs/Metrics/download%20(3).png) | ![Student Model Performance](Sample%20Outputs/Metrics/download%20(4).png) |
 
 ---
 
